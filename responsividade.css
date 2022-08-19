@@ -1,0 +1,23 @@
+html{
+    min-width: 404px;
+    min-height: 300px;
+}
+
+@media screen and (max-width: 1537px) {
+
+    .texto{
+        font-size: 1.8em;
+    }
+
+    .grid{
+        min-width: 350px;
+    }
+
+    #profile{
+        position: relative;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        margin-left: 0;
+        align-self: center;
+    }
+}
