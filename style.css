@@ -11,8 +11,8 @@ font-family: sans-serif;
 main{
 display: flex;
 flex-direction: column;
-justify-content: center;
 align-items: center;
+justify-content: space-around;
 }
 
 header{
@@ -29,11 +29,11 @@ font-size: 2em;
 }
 
 .grid{
-margin-top: 1%;
+margin-top: 3%;
 display: grid;
 grid-template-columns: repeat(4, 1fr);
-gap: 2%;
-width: 50%;
+gap: 0.8%;
+width: 55%;
 }
 
 .card{
