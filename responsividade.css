@@ -1,8 +1,9 @@
 html{
     min-width: 302px;
+    height: 140vh;
 }
 
-@media screen and (max-width: 1537px) {
+@media screen and (max-width: 1749px) {
 
     .texto{
         font-size: 1.8em;
@@ -18,5 +19,15 @@ html{
         margin-bottom: 5%;
         margin-left: 0;
         align-self: center;
+    }
+}
+
+@media screen and (min-width: 1749px) {
+    html{
+        height: 100vh;
+    }
+
+    .grid{
+        width: 50%;
     }
 }
