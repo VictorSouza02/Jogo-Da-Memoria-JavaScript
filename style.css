@@ -61,7 +61,7 @@ transform: rotateY(180deg);
 }
 
 .back{
-background-image: url(../img/js-icon.jpg);
+background-image: url(img/js-icon.jpg);
 backface-visibility: hidden;
 }
 
